@@ -17,4 +17,4 @@
 - I used a headshot of myself in the about section, so that designers know who they are reaching out to/ who their mentor will be.
 - The image is in .jpg format.
 - I added this .jpg in my html-assignment folder.
-- Then, I integrated it into the html file by using the <img> tag, using the exact file name because it is in the same folder as my index.html file. I also added alt text which follows best practices according to University of South Carolina, and I also added a width constraint to the image.
+- Then, I integrated it into the html file by using the semantic img tag, using the exact file name because it is in the same folder as my index.html file. I also added alt text which follows best practices according to University of South Carolina, and I also added a width constraint to the image.
