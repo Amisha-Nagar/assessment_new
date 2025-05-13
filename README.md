@@ -13,9 +13,9 @@
 **A short reflection:**
 
 Challenges
-- I had challenges trying to style the navigation bar as I am not sure how to all the brand name/logo and the navigation links in one line.
-- I also struggled to position the navigation bar to aligned to flush to the edges of the page.
-- I normally figure out layout and UI in Figma first, but this time I started directly in HTML and CSS, which made it a bit harder to plan.
+- I had challenges trying to style the navigation bar as I am not sure how to align the brand name (logo) and the navigation links in one line.
+- I struggled to position the navigation bar to be flush against the edges of the page.
+- As a designer, I normally figure out layout and UI in Figma first, but this time I started directly in HTML and CSS, which made it a bit harder to plan.
 
 Things I tried out:
 -   I looked at examples on how to style navigation bar on https://www.w3schools.com/css/css_navbar.asp which helped me get most of it correct.
