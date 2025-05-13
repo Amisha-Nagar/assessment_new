@@ -11,17 +11,21 @@
 - I validated my css code by using the direct iput option on W3C CSS Validation Service. I pasted the css code, and there were no errors found. There was also some guidance provided to add W3C verified CSS icon to my html, so I decided it add it to the footer.
 
 **A short reflection:**
+
 Challenges
 - I had challenges trying to style the navigation bar as I am not sure how to all the brand name/logo and the navigation links in one line.
 - I also struggled to position the navigation bar to aligned to flush to the edges of the page.
 - I normally figure out layout and UI in Figma first, but this time I started directly in HTML and CSS, which made it a bit harder to plan.
-Things I tried out:
+
+- Things I tried out:
 -   I looked at examples on how to style navigation bar on https://www.w3schools.com/css/css_navbar.asp which helped me get most of it correct.
 -   I added font weight (700) to the contact section and removed the <strong> tags and replaced it with <span class=emphasis>.
 -   For the image I added styles to css, and removed the inline width from the html. I added rounded corners and width to the css.
 
+----
 
 html-assigment read.me (06 May 2005)
+
 **My theme of choice:**
 - A few designers have recently reached out to me on LinkedIn, or via someone I've worked with in the past, to get feedback on their designs and portfolios. This inspired me to create a mentorship page, i.e. a central space where designers can reach out to me and receive support and guidance.
 - I thought "Amentor" was a cool but simple enough idea to execute for the purposes of this assignment.
