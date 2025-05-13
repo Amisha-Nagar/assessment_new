@@ -17,9 +17,9 @@ Challenges
 - I also struggled to position the navigation bar to aligned to flush to the edges of the page.
 - I normally figure out layout and UI in Figma first, but this time I started directly in HTML and CSS, which made it a bit harder to plan.
 
-- Things I tried out:
+Things I tried out:
 -   I looked at examples on how to style navigation bar on https://www.w3schools.com/css/css_navbar.asp which helped me get most of it correct.
--   I added font weight (700) to the contact section and removed the <strong> tags and replaced it with <span class=emphasis>.
+-   I added font weight (700) to the contact section and removed the strong tags in html and replaced it with emphasis class instead.
 -   For the image I added styles to css, and removed the inline width from the html. I added rounded corners and width to the css.
 
 ----
