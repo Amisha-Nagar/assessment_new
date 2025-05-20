@@ -1,4 +1,4 @@
-# advanced-css-assignment (20 May 2015)
+# advanced-css-assignment (20 May 2025)
 **How I approached responsiveness:**
 - I first designed my layout in Figma so that I could visualise what I wanted in code. I started with mobile first, and used smaller fonts styles, narrower padding and layout (i.e vertical stacked view for tiles) for smaller screens. I, then, scaled up the font sizes and changed layout (i.e horizontal tiles) and added more padding to create more breathing room at a breakpoint of 768px for tablets and desktops. 
 
@@ -10,9 +10,9 @@
 
 
 **What design decisions I made for navigation, structure, and interactivity:**
-- Navigation: I deciced to add a menu icon for smaller screens (I still need to figure out how to add the interaction that opens the navigation menu), and on larger screens this expands into navigation bar with tabs/ links.
+- Navigation: I decided to add a menu icon for smaller screens (I still need to figure out how to add the interaction that opens the navigation menu), and on larger screens this expands into navigation bar with tabs/ links.
 
-- Structure: This is something I tried to improve from the previous version of my html and css, and tried to use more common convections when it comes to website layout, like added a Hero section, and then separating each section with alternating colours.
+- Structure: This is something I tried to improve from the previous version of my html and css, and tried to use more common conventions when it comes to website layout, like adding a Hero section, and then separating each section with alternating colours.
 
 - Interactivity: I added animation effects to hover state of the call to action - this included background colour change and shadow effect, as well as replace the normal bullet point list with emojis in the _contact_ section.
 
@@ -20,7 +20,7 @@
 
 Challenges:
 - I struggled figuring out how to layout content inside content, but what helped was actually drawing boxes on a piece of paper and labelling it, e.g. "section" wraps "heading" and "container", and then container wraps "content and image".
-- Something I haven't yet figure out is why the padding on the right isn't displaying as expected, it is as if there is no padding applied. It could be because of flex properties applied and I still need to do more testing.
+- Something I haven't yet figured out is why the padding on the right isn't displaying as expected, it is as if there is no padding applied. It could be because of flex properties applied and I still need to do more testing.
 - I also struggled with displaying the illustrations and images at appropriate sizes so that it scales better on the different breakpoints.
 - I wanted to add border to my profile image but it is not being displayed when tested.
 
