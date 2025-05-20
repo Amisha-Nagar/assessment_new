@@ -3,60 +3,112 @@
   <head>
     <title>Amentor</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=notes" />
   </head>
   <body>
+    <!-- Navigation bar -->
     <header>
-      <h1>Amentor</h1>
-      <nav>
-         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#offerings">Offerings</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="https://www.linkedin.com/in/amishanagar" target="_blank">My LinkedIn</a></li>
-        </ul>
-      </nav>
+      <div class="navigation-bar">
+        <h1 id=logo>Amentor</h1>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#offerings">Offerings</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://www.linkedin.com/in/amishanagar" target="_blank">My LinkedIn</a></li>
+          </ul>
+        </nav>
+        <div class="menu-nav-icon"> <span class="material-symbols-outlined">
+          
+notes
+            </span></div>
+      </div>
     </header>
     
     <main>
-        <section class="section-main">
-          <h2>I'm your personal design mentor, Amisha</h2>
-          <p>Offering design feedback to help you grow in your product design career.</p>
-        </section>
+      <!-- Hero section -->
+      <section class="section-hero">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>I'm your personal design mentor, Amisha</h1>
+            <p>Offering design feedback to
+               help you grow in your product design career.</p>
+          </div>
+          <div class="hero-illustration">
+            <img src="assets/hero_illustration.svg" alt="Illustration of mountains and flowers">
+          </div>
+        </div>
+    </section>
 
-        <section id="about">
+  <!-- About section -->
+    <section id="about" class="section-about">
+        <div>
           <h2>About</h2>
-          <img src="amishanagarprofilepicture.jpg" alt="Headshot of Amisha Nagar">
-          <p>I’m a Design System Specialist at Absa, with 3.5 years of experience in the UX design industry. The name Amentor is a mix of Amisha and mentor, I created this space to support designers and help them reach new potentials.</p>
-        </section>
+        </div>
+        <div class="about-content">
+          <img src="assets/amishanagarprofilepicture.jpg" 
+          alt="Headshot of Amisha Nagar" width="300">
+          <p>I’m a Design System Specialist at Absa, with 3.5 years of 
+          experience in the UX design industry. The name, Amentor, is a mix 
+          of Amisha and mentor, I created this space to support designers 
+          and help them reach new potentials.</p>
+        </div>
+    </section>
 
-        <section id="offerings">
-          <h2>What I offer</h2>
-          <ul>
-            <li>1:1 Mentorship</li>
-            <li>Design portfolio reviews</li>
-            <li>UI/UX feedback</li>
-          </ul>
-        </section>
+<!-- Offer section -->
+    <section id="offerings" class="section-offer">
+        <div>
+           <h2>What I offer</h2>
+        </div>
+        <div class="offer-container">
+          <div class="offer-tile">
+            <h3>1:1 Mentorship</h3>
+            <p> We will set an action plan for your growth areas
+               and have biweekly sessions for 6 months.</p>
+          </div>
+          <div class="offer-tile">
+            <h3>Porfolio Reviews</h3>
+            <p>A detailed review of your design portfolio, including
+               how you can improve on design and layout. </p>
+          </div>
+          <div class="offer-tile">
+            <h3>UI/UX Feedback</h3>
+            <p>General feedback on design systems, accessibility,
+               usability and design best practices.</p>
+          </div>
+        </div>
+    </section>
 
-        <section id="contact">
+        <!-- Contact section -->
+        <section id="contact" class="section-contact">
          <h2>Get in touch with me</h2>
-         <p>Send an email to <a href="mailto:amishanagar12@gmail.com">amishanagar12@gmail.com</a> and include:</p>
-         <ul>
-           <li>A short message about <span class="emphasis">what kind of mentorship</span> you are looking for;</li>
-           <li>or, if you're looking for design feedback, send me your <span class="emphasis">portfolio, CV,</span> and <span class="emphasis">LinkedIn profile.</span></li>          
-         </ul>
-         <p>If you are looking for mentorship, expect a reply to your email within 2 days to schedule a coffee chat. If you're requesting feedback only, you'll receive it within 2 weeks.</p>
+         <div class="offer-body">
+         <p>Send an email with the following:</p>
+         <ul class="custom-markers">
+           <li>A short message about <span class=emphasis>what kind of mentorship</span> you are looking for;</li>
+           <li>or, if you're looking for design feedback, send me your <span class=emphasis>portfolio, CV,</span> and <span class=emphasis>LinkedIn profile.</span></li>
+        </ul>
+         <p>If you are looking for mentorship, expect a reply to your email within 2 days to 
+          schedule a coffee chat. If you're requesting feedback only, you'll receive it within 
+          2 weeks.</p>
+          <br>
+          <a href="mailto:amishanagar12@gmail.com" class="btn">
+            Send email
+          </a>
+          </div>
         </section>
     </main>
     
+    <!-- Footer section -->
     <footer>© 2025 Amentor
-      <p>
-        <a href="https://jigsaw.w3.org/css-validator/check/referer">
-            <img style="border:0;width:88px;height:31px"
-                src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-                alt="Valid CSS!" />
-        </a>
-    </p>
-    </footer>
+    <p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p></footer>
   </body>
 </html>
