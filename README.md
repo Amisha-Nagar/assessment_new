@@ -1,6 +1,6 @@
 # js-assignment (27 May 2025)
 **What the popup does:**
-- I added a new section to my website with a downloadable UI Cheatsheet to give the popup interaction more purpose. When you click the "Learn more" button, it opens a popup with more details about the Cheatsheet and a button to download it (the download button doesn't work yet, it’s just a placeholder for now).
+- I added a new section to my website with a downloadable UI Cheatsheet to give the popup interaction more purpose. Clicking on the "Learn more" button, opens a popup, which provides more details about the Cheatsheet and a button to download it (the download button does not, it is just a placeholder at the moment).
 
 **What user action triggers it:**
 - When you click on the "Learn more" button, the overlay and popup shows up. Clicking on the close icon or outside the popup container/ on the overlay section will close the popup.
