@@ -37,6 +37,10 @@ a {
     font-weight: 700;
 }
 
+.emphasis {
+    font-weight: 600;
+}
+
 
 /* Typography responsive layout */
 @media (min-width: 768px) {
@@ -68,6 +72,54 @@ h3 {
     font-weight: 700;
 } 
 }
+
+/* Button styles */
+.btn-primary {
+    background-color: #076445; 
+    color: #ffffff;
+    padding: 16px 16px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "Lora", sans-serif;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 24px;
+}
+
+.btn-primary:hover {
+    background-color: #013725; 
+    box-shadow: 0px 4px 4px 0px rgba(4, 35, 25, 0.50);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 24px; 
+}
+
+.btn-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 32px;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 100px;
+}
+
+.btn-icon:hover {
+  background-color: lightgrey;
+}
+
+
+
   
 /* Navigation bar */
 .navigation-bar {
@@ -229,19 +281,18 @@ img {
     padding: 24px;
 }
 
-ul.custom-markers li {
-    list-style: none;      
-    position: relative;
-    padding-left: 36px;
-}
+    .offer-body {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    align-items: center;
+    text-align: left;
+    background: white;
+    padding-right: 24px;
+    }
 
-ul.custom-markers li::before {
-    content: "📌";          
-    position: absolute;
-    left: 0;
-}
 
-/* Offer section responsive layout */
+    /* Offer section responsive layout */
 @media (min-width: 768px) {
   .section-offer {
     flex-direction: row;
@@ -261,17 +312,8 @@ ul.custom-markers li::before {
 }
 }
 
-/* Contact section */
-.offer-body {
-    width: 100%;
-    margin: 0;
-    border-radius: 0;
-    align-items: center;
-    text-align: left;
-    background: white;
-    padding-right: 24px;
-}
 
+/* Contact section */
 .section-contact {
     width: 100%;
     padding: 24px 24px;
@@ -281,28 +323,16 @@ ul.custom-markers li::before {
     gap: 24px
 }
 
-
-.emphasis {
-    font-weight: 600;
+ul.custom-markers li {
+    list-style: none;      
+    position: relative;
+    padding-left: 36px;
 }
 
-.btn {
-    background-color: #076445; 
-    color: #ffffff;
-    padding: 16px 16px;
-    border: none;
-    border-radius: 20px;
-    font-size: 18px;
-    font-weight: 600;
-    text-decoration: none;
-    font-family: "Lora", sans-serif;
-    transition: background-color 0.3s ease-in-out;
-    margin-top: 24px;
-}
-
-.btn:hover {
-    background-color: #013725; 
-    box-shadow: 0px 4px 4px 0px rgba(4, 35, 25, 0.50);
+ul.custom-markers li::before {
+    content: "📌";          
+    position: absolute;
+    left: 0;
 }
 
 /* Contact section responsive layout */
@@ -314,6 +344,65 @@ ul.custom-markers li::before {
     padding: 48px 48px;
 }
 }
+
+
+/* Cheatsheet section */
+.section-cheatsheet {
+    width: 100%;
+    padding: 24px;
+    margin: 0;
+    border-radius: 0;
+    background: #E5F0ED;
+    gap: 24px
+}
+
+
+/* Cheatsheet section responsive layout */
+@media (min-width: 768px) {
+  .section-cheatsheet {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 48px 48px;
+}
+}
+
+
+/* Modal-overlay */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+  
+
+/* popup */
+.popup {
+  background: white;
+  padding: 24px;
+  border-radius: 20px;
+  max-width: 500px;
+  text-align: left;
+  margin: 100px auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#popupOverlay,
+#popup {
+  display: none; 
+}
+
+#popupOverlay.show,
+#popup.show {
+  display: block;
+}
+
   
  /* Footer */
 footer {
