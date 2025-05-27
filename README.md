@@ -1,3 +1,18 @@
+# js-assignment (27 May 2025)
+**What the popup does:**
+- I added a new section to my website with a downloadable UI Cheatsheet to give the popup interaction more purpose. When you click the "Learn more" button, it opens a popup with more details about the Cheatsheet and a button to download it (the download button doesn't work yet, it’s just a placeholder for now).
+
+**What user action triggers it:**
+- When you click on the "Learn more" button, the overlay and popup shows up. Clicking on the close icon or outside the popup container/ on the overlay section will close the popup.
+
+**Why I chose this interaction:**
+- I chose a pop-up because it seemed simple to execute and by adding a new section to my website it made sense to the UX.
+
+**Challenges or decisions I made while working with JavaScript:**
+- I tried to use a pop-up example from She Can Code, but realised that it had no event listeners, so I went back to the example provided in the tutorial. So there was plenty of times where the pop-up did not want to show because my naming was not linked properly.
+- My CSS is a mix of the examples I've seen and trying to align to my brands UI.
+- I also struggled for the popup to have padding on smaller screen sizes.
+
 # advanced-css-assignment (20 May 2025)
 **How I approached responsiveness:**
 - I first designed my layout in Figma so that I could visualise what I wanted in code. I started with mobile first, and used smaller fonts styles, narrower padding and layout (i.e vertical stacked view for tiles) for smaller screens. I, then, scaled up the font sizes and changed layout (i.e horizontal tiles) and added more padding to create more breathing room at a breakpoint of 768px for tablets and desktops. 
