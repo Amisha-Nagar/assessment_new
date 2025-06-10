@@ -1,3 +1,21 @@
+# js-assignment - Unleashing the Power of JavaScript (10 June 2025)
+**What the form does and how it works:**
+- I've added a contact form to my website so people can easily reach out to me for mentorship or feedback. They can add in their first name, email, and a message. Once you click on submit button, if the name has only characters, the email is valid and the message is at least 10 characters, a success alert will pop up.
+
+**What Javascript validation I used:**
+- I followed an example I found on geeksforgeeks.org, with form validation using regular expressions (regex), this allowed me to valid against specific characters and no spaces for input fields. I also used message.length for text area field.
+- If there were errors on the input fields, it would show up underneath the input after clicking submit.
+
+**How the modal interaction functions:**
+- The modal uses standard/default browser alert() if all fields are valid.
+- I wanted to use custom popup which I defined in the last assignment, however I was unsuccessful in trying to add it to the rest of the js, everything I tried did not work which also made the rest of the input validation not work as expected.
+  
+**Any decision or challenges I faced:**
+- This whole task was very difficult for me.
+- When I started the assignment, I found an example js which let me validate input fields instantly and used validateidname() and oninput, and that met one part of the assignment requirements. However, when I wanted to add on more complexity like character limits and special characters allowed or even using a custom popup. I really struggled to incorporate it into the js because it's difficult to understand how to tie it all together and had to stick with using an example that was able to meet 60% of the assignments requirements.
+
+-------------------------- 
+
 # js-assignment (27 May 2025)
 **What the popup does:**
 - I added a new section to my website with a downloadable UI Cheatsheet to give the popup interaction more purpose. Clicking on the "Learn more" button, opens a popup, which provides more details about the Cheatsheet and a button to download it (the download button does not, it is just a placeholder at the moment).
