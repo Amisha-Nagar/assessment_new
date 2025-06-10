@@ -8,7 +8,7 @@
 
 **How the modal interaction functions:**
 - The modal uses standard/default browser alert() if all fields are valid.
-- I wanted to use custom popup which I defined in the last assignment, however I was unsuccessful in trying to add it to the rest of the js, everything I tried did not work which also made the rest of the input validation not work as expected.
+- I wanted to use custom popup which I defined in the last assignment, however I was unsuccessful in trying to add it to the rest of the js, everything I tried did not work which also made the rest of the input validation not work as expected, so I stuck with alert()
   
 **Any decision or challenges I faced:**
 - This whole task was very difficult for me.
