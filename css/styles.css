@@ -118,8 +118,6 @@ h3 {
   background-color: lightgrey;
 }
 
-
-
   
 /* Navigation bar */
 .navigation-bar {
@@ -149,6 +147,10 @@ nav li {
 
 .menu-nav-icon {
     display: none;
+}
+
+.no-underline {
+  text-decoration: none;
 }
 
 /* Navigation bar responsive layout */
@@ -365,6 +367,83 @@ ul.custom-markers li::before {
     text-align: center;
     padding: 48px 48px;
 }
+}
+
+
+
+/* Contact Form */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.section-contact-form {
+  text-align: left;
+  width: 90%;
+  justify-content: center;
+  padding: 24px;
+}
+
+.contact-body {
+ text-align: left;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+#contactForm {
+  text-align: left;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 16px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Contact form section responsive layout */
+@media (min-width: 768px) {
+  .section-contact-form {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 48px 48px;
+}
+ 
 }
 
 

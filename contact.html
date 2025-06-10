@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact | Amentor</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navigation bar -->
+    <header>
+      <div class="navigation-bar">
+        <a href="index.html" class="no-underline">
+          <h1 id=logo>Amentor</h1>
+        </a>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#offerings">Offerings</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://www.linkedin.com/in/amishanagar" target="_blank">My LinkedIn</a></li>
+          </ul>
+        </nav>
+        <div class="menu-nav-icon">
+          <span class="material-symbols-outlined">notes</span>
+        </div>
+      </div>
+    </header>
+    
+   <!-- Contact Section -->
+  <main>
+    <section id="contact-form" class="section-contact-form">
+      <h2>Contact me</h2>
+      <div class="contact-container">
+        <div class="contact-body">
+          <p>Use the form to get in touch:</p>
+          <ul class="custom-markers">
+            <li>For mentorship: Include a short message about the <span class="emphasis">type of mentorship</span> you're seeking. You'll get a reply within 2 days</li>
+            <li>For feedback: Include a link to your <span class="emphasis">portfolio, CV</span>, or <span class="emphasis">LinkedIn</span>. Feeback may take up to 2 weeks.</li>
+          </ul>
+      </div>
+
+      <div class="form-container">
+          <form id="contactForm">
+              <label for="nameInput">First name:</label>
+              <input type="text" id="nameInput"/>
+              <div class="error-message" id="nameError"></div>
+
+              <label for="emailInput">Email address:</label>
+              <input type="email" id="emailInput"/>
+              <div class="error-message" id="emailError"></div>
+
+              <label for="message">How can I support you:</label>
+              <textarea id="message"></textarea>
+              <div class="error-message" id="messageError"></div>
+
+              <button type="submit" class="btn-primary">Submit</button>
+          </form>
+       </div>
+      </div>
+    </section>
+  </main>
+
+<!-- Popup and overlay -->
+    <div id="popupOverlay" class="modal-overlay">
+      <div class="popup" id="popup">
+        <span class="material-symbols-outlined btn-icon" id="closePopupBtn">close</span>
+          <h3>Submitted Successfully!</h3>
+          <p>Amisha will reach out to you soon.</p> 
+      </div>
+    </div>
+ 
+<!-- Footer section -->
+    <footer>© 2025 Amentor
+        <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" />
+        </a>
+        </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+
+</html>
