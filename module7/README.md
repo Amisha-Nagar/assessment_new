@@ -28,4 +28,4 @@ Submit button and modal:
   
 **Challenges I faced and how they were resolved:**
 - I was not unable Vue components into my project, as this was challenging. However, I ensured v-model was included, and for placeholders, I used native HTML attribute for placeholder.
-- For the alert, the inputted elements were initially appearing as one long line or string, so I learned that adding \n introduced line breaks.
+- For the alert, the inputted elements were initially appearing as one long line or string, so I learned that adding \n introduced line breaks. However the \n only works for the alert on Chrome Browser and not on Edge or Firefox.
