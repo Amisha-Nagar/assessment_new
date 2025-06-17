@@ -19,10 +19,12 @@ Submit button and modal:
 - If all input fields and the textarea message are valid, then the user will receive a default browser alert showing that the form has been submitted, along with what the user has inputted for first name, email, and message, and that I will reach out to them soon.
 
 **Testing notes:**
-- I conducted testing on three browsers, i.e., Chrome, Edge, and Firefox.
+- I conducted testing on three browsers i.e., Chrome, Edge, and Firefox for errors and responsiveness using responsive design mode. 
+- In terms of responsiveness: The contact.html page works on desktop and mobile.
 - Chrome: The issues identified were related to HTML structure, the 'for' attribute was missing on label tags, and 'id' was missing on input and textarea tags. I also included autocomplete on email input as this was picked up as an issue. I included these in my HTML, and after doing so, no errors were shown in the console.
 - Edge: The issues highlighted were the absence of meta charset and meta name in the header of my HTML, so I added them. There were also other issues identified related to capability, performance, and security, however, I am unsure how to fix these errors.
 - Firefox: The issue picked up was related to a cookie warning, which I am also unsure how to fix.
+- 
   
 **Challenges I faced and how they were resolved:**
 - I was not unable Vue components into my project, as this was challenging. However, I ensured v-model was included, and for placeholders, I used native HTML attribute for placeholder.
