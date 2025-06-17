@@ -4,12 +4,15 @@
 - I tried to include the button component example shown in the live tutorial; however, I was unable to make it function correctly with the HTML.
 
 **How validation and modal interaction works:**
+
 Empty input fields:
 - When a user clicks on an empty input or textarea, it will show the user that the information is required with an inline error message.
+
 If information is inputted, but incorrect:
 - First name input: Valid only if it contains alphabetic characters and no spaces.
 - Email address input: Valid if it is a valid email address.
 - Message textarea: Valid if the message is 10 or more characters.
+
 Submit button and modal:
 - The entire form uses @submit.prevent="handleSubmit" to prevent the default browser form submission.
 - If all input fields and the textarea message are valid, then the user will receive a default browser alert showing that the form has been submitted, along with what the user has inputted for first name, email, and message, and that I will reach out to them soon.
