@@ -1,5 +1,6 @@
 # vue.js-assignment 7 (17 June 2025)
 **How the Vue components were structured:**
+- Vue is used on contact.html and app.js files.
 - I used v-model for inputs and textarea for two-way data binding between these elements in my HTML and the app.js file.
 - I tried to include the button component example shown in the live tutorial; however, I was unable to make it function correctly with the HTML.
 
