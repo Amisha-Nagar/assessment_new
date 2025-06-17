@@ -2,10 +2,13 @@
 <html lang="en">
   <head>
     <title>Contact | Amentor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
   </head>
 
   <body>
@@ -42,38 +45,36 @@
           </ul>
       </div>
 
-      <div class="form-container">
-          <form id="contactForm">
-              <label for="nameInput">First name:</label>
-              <input type="text" id="nameInput"/>
-              <div class="error-message" id="nameError"></div>
+      <div id="app" class="form-container"> 
+            <form id="contactForm" @submit.prevent="handleSubmit">
+              <div>
+                    <label for="firstname">First name:</label>
+                    <input type="text" id="firstname" v-model="firstname" placeholder="e.g. Jane"/>
+                    <div class="error-message" v-if="firstnameError">{{ firstnameError }}</div>
+                </div>
 
-              <label for="emailInput">Email address:</label>
-              <input type="email" id="emailInput"/>
-              <div class="error-message" id="emailError"></div>
+                <div>
+                    <label for="email">Email address:</label>
+                    <input type="email" id="email" v-model="email" placeholder="e.g. jane.doe@email.com" autocomplete="email"/>
+                    <div class="error-message" v-if="emailError">{{ emailError }}</div>
+                </div>
 
-              <label for="message">How can I support you:</label>
-              <textarea id="message"></textarea>
-              <div class="error-message" id="messageError"></div>
+                <div>
+                    <label for="message">How can I support you:</label>
+                    <textarea id="message" v-model="message" placeholder="Include information about mentorship you seek or send link with your portfolio and CV..."></textarea>
+                    <div class="error-message" v-if="messageError">{{ messageError }}</div>
+                </div>
 
-              <button type="submit" class="btn-primary">Submit</button>
-          </form>
-       </div>
+                <button type="submit" class="btn-primary">Submit</button>
+            </form>
+
+      </div>
       </div>
     </section>
   </main>
 
-<!-- Popup and overlay
-    <div id="popupOverlay" class="modal-overlay">
-      <div class="popup" id="popup">
-        <span class="material-symbols-outlined btn-icon" id="closePopupBtn">close</span>
-          <h3>Submitted Successfully!</h3>
-          <p>Amisha will reach out to you soon.</p> 
-      </div>
-    </div> -->
- 
-<!-- Footer section -->
-    <footer>© 2025 Amentor
+  <!-- Footer -->
+  <footer>© 2025 Amentor
         <p>
         <a href="https://jigsaw.w3.org/css-validator/check/referer">
             <img style="border:0;width:88px;height:31px"
@@ -81,8 +82,11 @@
                 alt="Valid CSS!" />
         </a>
         </p>
-    </footer>
-    <script src="js/contact.js"></script>
+  </footer>
+  
+<!--Link to js file with vue -->
+  <script src="app.js"></script> 
+     
   </body>
 
 </html>
